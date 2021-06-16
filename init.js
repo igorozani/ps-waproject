@@ -20,9 +20,9 @@ async function init() {
   ora.promise(promise, 'Limpando dependencias...');
   await promise;
 
-  promise = selfDestruction(params);
-  ora.promise(promise, 'Auto destruição...');
-  await promise;
+  // promise = selfDestruction(params);
+  // ora.promise(promise, 'Auto destruição...');
+  // await promise;
 
   promise = resetGit(params);
   ora.promise(promise, 'Resetando Git...');

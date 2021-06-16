@@ -27,7 +27,7 @@ async function init() {
   }
 
   await cleanup();
-  await selfDestruction();
+  // await selfDestruction();
 }
 
 async function checkDeps() {
